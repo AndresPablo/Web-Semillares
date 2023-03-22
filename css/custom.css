@@ -1,0 +1,49 @@
+.banner {
+    height: 80vh;
+ 
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    background-image: url(‘https://picsum.photos/seed/picsum/536/354’);
+    background-repeat: no-repeat;
+}
+
+
+
+.banner-logo-marca {
+    background-color: darkgoldenrod;
+    padding: 16px;
+}
+
+.banner-logo-marca > img{
+    width: 200px; height: auto;
+}
+
+
+
+.logos-pago{
+    gap: 8px;
+}
+
+.logos-pago > img {
+    width: 80px;
+    height: 36px;
+}
+
+.list-group-item {
+    color: aliceblue;
+}
+
+
+ul > a{
+    color: aliceblue;
+}
+
+ul > a :hover{
+    color: red;
+}
+
+.data-fiscal {
+    width: 128px;
+    height: auto;
+}
