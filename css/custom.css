@@ -1,25 +1,72 @@
-.banner {
-    height: 80vh;
- 
-    /* Flexbox */
-    display: flex;
-    align-items: center;
-    background-image: url(‘https://picsum.photos/seed/picsum/536/354’);
-    background-repeat: no-repeat;
+/* TEMA */
+.btn-primary{
+    background-color:  #83A32C;
+    border-color: black;
+}
+.btn-primary:hover{
+    background-color:  #728f23;
+    border-color: black;
 }
 
+/* NAVBAR */
+
+nav{
+    background-color:  #ffffff;
+    /*background-color:  #E0AD46;*/
+    background-size: cover;
+}
+
+/* MASTHEAD (Banner principal) */
+.banner {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://media.gq.com.mx/photos/5f3f4f7f4545293c7ebf8ad9/master/pass/cereales.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vh;
+    height: 70vh;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url('/img/burbuja-blanca.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
 .banner-logo-marca {
-    background-color: darkgoldenrod;
-    padding: 16px;
+    background-color: rgb(243, 243, 243);
+    height: 0;
+    z-index: 9998;
 }
 
 .banner-logo-marca > img{
-    width: 200px; height: auto;
+    width: 200px; 
+    height: auto;
+    position: relative;
+    top: 8px;
+    z-index: 9999;
 }
 
 
+/* LOGOS */
 
 .logos-pago{
     gap: 8px;
@@ -29,6 +76,8 @@
     width: 80px;
     height: 36px;
 }
+
+/* GENERICO */
 
 .list-group-item {
     color: aliceblue;
