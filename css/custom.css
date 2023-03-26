@@ -1,10 +1,10 @@
 /* TEMA */
 .btn-primary{
-    background-color:  #83A32C;
+    background-color:  #83A32C;/*VERDE*/
     border-color: black;
 }
 .btn-primary:hover{
-    background-color:  #728f23;
+    background-color:  #728f23; 
     border-color: black;
 }
 
@@ -12,7 +12,8 @@
 
 nav{
     background-color:  #ffffff;
-    /*background-color:  #E0AD46;*/
+    /*background-color:  #E0AD46;*/ /*AMARILLO*/
+    /*background-color:  #8C5125;*/ /*MARRON OSCURO*/
     background-size: cover;
 }
 
